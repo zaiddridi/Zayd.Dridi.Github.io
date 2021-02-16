@@ -1,0 +1,82 @@
+﻿* {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+body {
+    min-width: 500px;
+    background-color:powderblue;
+}
+
+div {
+    border-radius: 5px;
+}
+h3 {
+    font-weight: bold;
+    color:red;
+}
+header {
+    
+    display:flex;
+    background-color:azure;
+   
+}
+
+title {
+    margin-left: 3%;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #ffcccc;
+    clear: both;
+    position:center;
+    text-align:center;
+
+}
+
+
+
+section {
+   
+    background-color: #e0eeee;
+    
+   
+}
+
+
+
+p,
+li {
+    font-family: 'Cormorant Garamond';
+
+}
+
+
+
+
+
+a {
+    color: black;
+    text-decoration:underline;
+}
+    a:hover {
+        background-color: yellow;
+    }
+@media only screen and (max-width: 430px) {
+    .left,
+    .right {
+        display: none;
+    }
+
+   .icon{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+ 
+   
+}
